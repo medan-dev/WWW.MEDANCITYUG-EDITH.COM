@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://127.0.0.1:5500/index.html#courses -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=0.0">
+    <title>MEDAN CITY DEV 🌍</title>
+      <link rel="stylesheet" href="./MEDAN CITY DEV 🌍_files/style.css">
+      <link rel="javascript" href="http://127.0.0.1:5500/main.js" <="" head="">
+</head><body>
+    
+    <header>
+        <h1>Welcome to Medan City Dev World 🌐</h1>
+        <p>Come meet your programming dream with us.</p>
+    </header>
+
+    <nav>
+        <img src="./MEDAN CITY DEV 🌍_files/logo.png" alt="company Logo">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/index.html#courses">Courses</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#about">About Us</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <div class="course">
+            <h3>Course 1: Introduction to Programming</h3>
+            <p>Learn the basics of starting and running a successful business.</p>
+            <button class="Scroll-button">Sroll Now</button>
+        </div>
+        <div class="course">
+            <h3>Course 2: Web Development Fundamentals</h3>
+            <p>Master the essentials of web development and programming.</p>
+            <button class="scroll-button">Scroll Now</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a passionate team of educators dedicated to helping you achieve your goals.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, feel free to contact us:</p>
+        <a href="mailto:medancityug@gmail.com">mdancityug@gmail.com</a>
+    </section>
+
+    <footer>
+        <p>© 2023 Startup University</p>
+    </footer>
+
+    <script src="./MEDAN CITY DEV 🌍_files/script.js.download"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
